@@ -3,7 +3,7 @@ import SearchOrder from "../features/order/SearchOrder";
 
 const Header = () => {
 	return (
-		<header>
+		<header className="bg-yellow-500 uppercase">
 			<Link to="/">The Vitest Pizza </Link>
 			<SearchOrder />
 		</header>
