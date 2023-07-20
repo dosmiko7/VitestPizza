@@ -1,4 +1,5 @@
-import {getAddress} from "../../services/apiGeocoding";
+import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
+import { getAddress } from '../../services/apiGeocoding';
 
 function getPosition() {
   return new Promise(function (resolve, reject) {
@@ -22,8 +23,6 @@ export const fetchAddress = createAsyncThunk('user/fetchAddress', async function
     // PAYLOAD FOR FULLFILLED STATUS
     return { position, address };
 })
-
-const { createSlice, createAsyncThunk } = require("@reduxjs/toolkit")
 
 const initialState = {
   username: '',
