@@ -14,7 +14,8 @@ const cartSlice = createSlice({
         },
         deleteItem(state, action) {
             // payload is an index of item
-            state.cart.filter(item => item.pizzaId !== action.payload);
+             const rel = state.cart.filter(item => item.pizzaId !== action.payload);
+             state.cart = rel;
         },
         increaseItemQuantity(state, action) {
             // payload is an item's index
