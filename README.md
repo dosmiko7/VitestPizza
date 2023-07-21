@@ -38,7 +38,7 @@ By default, the local server will start at: http://localhost:5173/
 
 ## Demo
 
-vitestpizza-mo.netlify.app
+https://vitestpizza-mo.netlify.app/
 
 
 ## Tech Stack
