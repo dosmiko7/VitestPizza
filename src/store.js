@@ -8,6 +8,7 @@ const store = configureStore({
         user: userReducer,
         cart: cartSlice,
     }
+    
 })
 
 export default store;
