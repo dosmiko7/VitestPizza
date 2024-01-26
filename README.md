@@ -1,9 +1,32 @@
-
+![Logo](documentation/images/logo.png)
 # The Vitest Pizza
 
-Website that allows you to create orders for pizza. The order form allows you to retrieve the address via GPS. Dynamic updating of the order card by the user.
+The application allows you to browse the pizza menu and place orders. Use The Vitest Pizza quickly and conveniently thanks to its intuitive interface.
 
+# Features
+## ℹ️ Basic concept
+The main idea of The Vitest Pizza was to create an easy-to-use website enabling placing orders. Getting to know technologies such as React Redux, React Router, REST API support and the use of tools such as Tailwind CSS and PostCSS.
+![Start](documentation/images/Start.gif)
 
+## 🍕 Add pizzas
+Choose from several items and compose your pizza order list.
+
+![Adding](documentation/images/Adding.gif)
+
+## 📝🗺️ Order with geolocation
+Place your order and use the geolocation API to avoid entering your address yourself.
+![Order](documentation/images/Order.gif)
+
+## 🔍 Search
+Search for your current orders and check their status.
+![Theme Demo](documentation/images/gifs/Theme.gif)
+
+## 📏 Responsiveness
+Thanks to the use of Tailwind CSS, the application is responsive and adapts to the current screen resolution.
+![Mobile-1](documentation/images/Mobile-1.png)
+![Mobile-2](documentation/images/Mobile-2.png)
+![Mobile-3](documentation/images/Mobile-3.png)
+![Mobile-4](documentation/images/Mobile-4.png)
 
 
 
@@ -46,12 +69,11 @@ By default, the local server will start at: http://localhost:5173/
 - npm v9.8.0
 - React,
 - JavaScript  
-- Tailwind, 
+- Tailwind CSS, 
 - React Redux Toolkit,
 - React Router
 - Vite
-
-
+- REST API
 
 ## Author
 
